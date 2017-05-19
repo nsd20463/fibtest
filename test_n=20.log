@@ -1,0 +1,7 @@
+BenchmarkNaive-8              	   50000	     34617 ns/op
+BenchmarkMemoized-8           	20000000	       107 ns/op
+BenchmarkStackless-8          	200000000	         6.39 ns/op
+BenchmarkRaceyConcurrent-8    	  100000	     12616 ns/op
+BenchmarkLockedConcurrent-8   	  200000	      7312 ns/op
+PASS
+ok  	github.com/nsd20463/fibtest	9.190s
